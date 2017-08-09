@@ -20,13 +20,13 @@ The goal is to repeat a process several times. This should make you think of loo
 
 
 
+def check():
+    print "* * * * "
+    print " * * * * "
 
-def print_board(row, column):
-    even_string = "*"
-    odd_string = " "
+check()
+check()
+check()
+check()
 
-    for i in xrange(row):
-        print odd_string if i % 2 else even_string
-
-print_board(8,8)
 
