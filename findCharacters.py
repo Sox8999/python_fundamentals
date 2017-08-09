@@ -20,8 +20,8 @@ def find_char(lst):
 
     for text in lst:
         if char in text:
-            new_lst += text
+            new_lst.append(text)
     print new_lst
-
+    
 
 find_char(word_list)
