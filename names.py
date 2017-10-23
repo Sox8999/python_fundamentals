@@ -82,5 +82,8 @@ def show_all(users):
             length = len(first_name) + len(last_name)
             print "{} - {} {} - {}".format(counter, first_name, last_name, length)
 
+
+
+
 show_students(students)
 show_all(users)
